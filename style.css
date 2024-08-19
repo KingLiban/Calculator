@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+main {
+    margin-bottom: 100px;
+}
+
+main, .display, .button {
+    border-radius: 5px;
+    border: 1px black solid;
+}
+
+.display {
+    background-color: white;
+    padding: 10px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: right;
+    font-size: 24px;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 16px;
+    background-color: rgb(166, 171, 175);
+}
+
+.options, .row {
+    display: flex;
+    gap: 8px;
+    justify-content: space-around;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+button {
+    padding: 10px;
+    flex: 1;
+}
+
+.clear {
+    flex: 1;
+    background-color: lightblue;
+}
+
+
+
